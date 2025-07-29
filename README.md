@@ -1,4 +1,5 @@
-Overview
+**Overview**
+
 This project proposes an automated attendance system using face recognition, designed to streamline the attendance-taking process in educational environments. Traditional manual attendance methods are time-consuming and disruptive to class productivity. This system leverages real-time face detection and recognition using a Raspberry Pi and the OpenCV framework to efficiently record student attendance.
 
 How It Works
