@@ -2,7 +2,7 @@
 
 This project proposes an automated attendance system using face recognition, designed to streamline the attendance-taking process in educational environments. Traditional manual attendance methods are time-consuming and disruptive to class productivity. This system leverages real-time face detection and recognition using a Raspberry Pi and the OpenCV framework to efficiently record student attendance.
 
-How It Works
+**How It Works**
 The system operates by:
 
 Student Face Data Pre-storage: Student faces are pre-stored in a class database.
@@ -15,7 +15,7 @@ Automated Attendance: If a match is found, the student is marked as present. Att
 
 This automated approach aims to significantly reduce the time spent on attendance, allowing for more productive teaching and learning.
 
-Key Features
+**Key Features**
 Automated Attendance: Eliminates manual attendance taking.
 
 Face Recognition: Utilizes an efficient algorithm with OpenCV for real-time face detection and recognition.
@@ -26,7 +26,7 @@ Improved Efficiency: Maximizes teaching time by minimizing attendance-related de
 
 Enhanced Security: Provides a more secure and discreet attendance recording method.
 
-Experimental Results
+**Experimental Results**
 The system's functionality is demonstrated through the execution of three core Python programs: dataset.py, training.py, and recognition.py.
 
 1. dataset.py
@@ -46,11 +46,11 @@ Output: A trained facial recognition model, with a confirmation of the number of
 3. recognition.py
 This is the main attendance recording program. It continuously captures faces until a predefined "stop time." After this time, it displays and processes attendance data, separating present and absent students.
 
-Input: Live video feed from the USB camera.
+**Input: Live video feed from the USB camera.**
 
-Output: Real-time face recognition, with a final display of present and absent student data.
+**Output: Real-time face recognition, with a final display of present and absent student data.**
 
-Conclusion
+**Conclusion**
 This automated student attendance system addresses the inefficiencies of traditional methods by integrating face recognition. It aims to save effort and time for both teachers and students, improving the overall efficiency and security of the attendance management process. While existing facial recognition systems have limitations (e.g., accuracy, lighting), this proposed system strives to mitigate these challenges, leading to:
 
 Minimizing attendance marking time.
@@ -61,7 +61,7 @@ Increasing overall system efficiency.
 
 Improving security by enabling discreet attendance.
 
-Future Scope
+**Future Scope**
 The project has promising avenues for further development:
 
 Higher Accuracy: The system's accuracy can be further improved for partial and dense images.
